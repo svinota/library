@@ -1,0 +1,23 @@
+div.book, div.article, div.facsimile, div.collection, div.full {
+    cursor: pointer;}
+
+div.book {margin: 1em;
+          border: solid 1px #c0c0c0;}
+
+div.article {margin: 1em;
+             border: solid 1px #ffc0c0;}
+
+div.facsimile {margin: 1em;
+               border: solid 1px #c0ffc0;}
+
+div.collection {margin: 1em;
+                border: solid 1px #c0c0ff;}
+
+div.full {border-width: 2px;
+          display: none;}
+
+span.title {font-weight: bold;}
+
+span.author {font-style: italic;}
+
+span.volume {font-weight: bold;}
